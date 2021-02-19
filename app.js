@@ -192,6 +192,7 @@
    })
    
    //Bonus Marking javascript
+   //1.add spinner
    const toggleSpinner = () => {
      const spinner = document.getElementById('spinner');
      spinner.classList.toggle('d-flex');
@@ -209,7 +210,7 @@
    
    }
    
-   
+   //2.mouse pointer/hover selector
    sliderContainer.addEventListener('mouseenter', e => {
      e.target.style.display = "block";
    
@@ -220,8 +221,8 @@
    });
 
    
-
+//3.close button add
    document.getElementById('close').addEventListener('click', function(e) {
-  document.getElementById('search-result').style.display='none';
+   document.getElementById('search-result').style.display='none';
 
 });

@@ -86,15 +86,13 @@ input[type=number] {
 }
 
 
-
+/* close button add */
 #close {
  
   margin-top: -10px;
   margin-left: 20px;
   padding:2px 5px;
  cursor: pointer;
-  
-  
 }
 #close:hover {
   padding:2px 5px;
